@@ -1,4 +1,4 @@
-//Tree height
+1..//Tree height
 
     public int height(TreeNode root){
         if(root == null)
@@ -7,7 +7,7 @@
         return Math.max(height(root.left),height(root.right)) + 1;
     }
 ----------------------------------------------------------------------
-//linked list middle
+2..//linked list middle
 
 while (fast_ptr != null && fast_ptr.next != null)
             {
@@ -19,3 +19,16 @@ while (fast_ptr != null && fast_ptr.next != null)
     
     
     
+    3..//Use sorted TreeMap:
+
+Map<String, Float> map = new TreeMap<String, Float>(yourMap);
+  
+---------------------------------------------------------------------------
+   4.. //iterate through map
+    for (Map.Entry<String, Object> entry : map.entrySet()) {
+    String key = entry.getKey();
+    Object value = entry.getValue();
+    // ...
+}
+    
+ ---------------------------------------------------------------------   
