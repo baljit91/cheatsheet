@@ -32,8 +32,15 @@ Map<String, Float> map = new TreeMap<String, Float>(yourMap);
 }
     
  ---------------------------------------------------------------------  
-     
+     5..
      
      nodes.addAll(Arrays.asList(data.split(spliter)));
 
-------------------------------------
+------------------------------------------------------------------------
+   6... /* we are splitting the input based on 
+           spaces (\s)+ : this regular expression 
+           will handle scenarios where we have words 
+           separated by multiple spaces */
+        String s[] = input.split("(\\s)+");
+
+-------------------------------------------
