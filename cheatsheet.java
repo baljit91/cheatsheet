@@ -45,4 +45,8 @@ Map<String, Float> map = new TreeMap<String, Float>(yourMap);
 
 -------------------------------------------------------------------------
     
-    
+ 7.. typecast integer to charcter
+ int x = 98;
+ char b = (char) (x);
+
+------------------------------------------------------------------------------
