@@ -50,3 +50,20 @@ Map<String, Float> map = new TreeMap<String, Float>(yourMap);
  char b = (char) (x);
 
 ------------------------------------------------------------------------------
+    
+    
+    
+    if (str[i]>='A' && str[i]<='Z')
+            {
+                str[i] = (char)(str[i]+32);
+                 
+                // Print space before it
+                // if its an uppercase character
+                if (i != 0)
+                    System.out.print(" ");
+     
+                // Print the character
+                System.out.print(str[i]);
+            }
+
+----------------------------------------------------------------------------------
