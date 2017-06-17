@@ -43,6 +43,11 @@ Map<String, Float> map = new TreeMap<String, Float>(yourMap);
            separated by multiple spaces */
         String s[] = input.split("(\\s)+");
 
+
+
+java.lang.String.split splits on regular expressions, and . in a regular expression means "any character".
+
+Try temp.split("\\.").
 -------------------------------------------------------------------------
     
  7.. typecast integer to charcter
