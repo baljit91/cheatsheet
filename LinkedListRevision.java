@@ -16,5 +16,13 @@ ListNode curr = head;
         
 Time Complexity : O(n)
 Space Complexity : O(1)
+------------------------------------------------
+2..//linked list middle
 
+while (fast_ptr != null && fast_ptr.next != null)
+            {
+                fast_ptr = fast_ptr.next.next;
+                slow_ptr = slow_ptr.next;
+            }
+------------------------------------------------
 
