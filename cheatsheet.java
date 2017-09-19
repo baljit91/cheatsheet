@@ -75,3 +75,5 @@ Try temp.split("\\.").
             }
 
 ----------------------------------------------------------------------------------
+    8. //reverse string syntax
+        new StringBuffer("string you want to reverse").reverse()
