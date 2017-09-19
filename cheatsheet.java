@@ -30,7 +30,10 @@ Map<String, Float> map = new TreeMap<String, Float>(yourMap);
     Object value = entry.getValue();
     // ...
 }
-    
+    //USING KEY ONLY
+    for (String key : map.keySet()) {
+    // ...
+   }
  ---------------------------------------------------------------------  
      5..
      
